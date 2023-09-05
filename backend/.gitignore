@@ -1,29 +1,21 @@
-# Compiled class files
+# Compiled byte code
 *.class
 
-# Build folder
-target/
-
-# Eclipse-specific files
-.classpath
-.project
-.settings/
-
-# IntelliJ-specific files
-.idea/
-*.iml
-
-# Logs
+# Log files
 *.log
 
-# Ignore environment-specific files
-.env
-
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
-
-# Ignore package files
+# Package files
 *.jar
 *.war
 *.ear
+
+# IntelliJ files
+.idea/
+*.iml
+
+# Gradle files
+.gradle/
+build/
+
+# Miscellaneous
+.DS_Store
